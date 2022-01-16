@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_gradient"
+    android:orientation="vertical"
+    tools:context=".HotelActivity7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="82dp">
+
+                <ImageButton
+                    android:id="@+id/buttonGoBackHotel7"
+                    android:layout_width="41dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@android:color/transparent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_arrow" />
+
+                <TextView
+                    android:id="@+id/tvHotelName7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Sheraton"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/border_gray"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/zdjecie19"
+                            android:layout_width="280dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/sheraton1" />
+
+                        <ImageView
+                            android:id="@+id/zdjecie20"
+                            android:layout_width="280dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintStart_toEndOf="@id/zdjecie19"
+                            app:layout_constraintTop_toTopOf="@id/zdjecie19"
+                            app:srcCompat="@drawable/sheraton2" />
+
+                        <ImageView
+                            android:id="@+id/zdjecie21"
+                            android:layout_width="280dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintStart_toEndOf="@id/zdjecie20"
+                            app:layout_constraintTop_toTopOf="@id/zdjecie20"
+                            app:srcCompat="@drawable/sheraton3" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </HorizontalScrollView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="909dp">
+
+                    <TextView
+                        android:id="@+id/tvHotelPriceNight7"
+                        android:layout_width="121dp"
+                        android:layout_height="27dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Cena za noc"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/star31" />
+
+                    <TextView
+                        android:id="@+id/tvHotelPrice7"
+                        android:layout_width="49dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="68dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="250zł"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/tvHotelPriceNight7"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/buttonReser7"
+                        android:layout_width="177dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/button"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Rezerwuj"
+                        android:textAllCaps="false"
+                        android:textColorHighlight="@color/border_gray"
+                        android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvHotelAddress7"
+                        android:layout_width="302dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Powstańców Warszawy 10, 81-718 Sopot"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/pin7"
+                        app:layout_constraintTop_toBottomOf="@+id/tvHotelPriceNight7" />
+
+                    <TextView
+                        android:id="@+id/tvHotel7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="36dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="Opis"
+                        android:textColor="@color/brown"
+                        android:textSize="30sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/pin7" />
+
+                    <ImageView
+                        android:id="@+id/star31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/star32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toEndOf="@+id/star31"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/star33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toEndOf="@+id/star32"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/star34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toEndOf="@+id/star33"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/star35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toEndOf="@+id/star34"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/pin7"
+                        android:layout_width="35dp"
+                        android:layout_height="39dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvHotelPriceNight7"
+                        app:srcCompat="@drawable/ic_pin" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="333dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/opis_hotel7"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvHotel7" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Hotelo</string>
+    <string name="zarejestruj_si"><u>Zarejestruj się</u></string>
+    <string name="nr_telefonu">Nr telefonu</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="e_mail">E-mail</string>
+    <string name="imi">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="has_o">Hasło</string>
+    <string name="zarejestruj_sie"><u>Zarejestruj się.</u></string>
+    <string name="zaloguj_si">Zaloguj się</string>
+    <string name="nie_pami_tasz_has_a">Nie pamiętasz hasła?</string>
+    <string name="has_o2">Hasło</string>
+    <string name="e_mail2">E-mail</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="nie_masz_konta">Nie masz konta?</string>
+    <string name="zaawansowane_wyszukiwanie">Zaawansowane wyszukiwanie</string>
+    <string name="najlepiej_oceniane">Najlepiej oceniane</string>
+    <string name="rekomendowane">Rekomendowane</string>
+    <string name="witaj">Witaj!</string>
+    <string name="opis_hotel1">Nowoczesny hotel Novotel Warszawa Centrum usytuowany jest w centrum Warszawy, 5 minut spacerem od dworca kolejowego Warszawa Centralna, a z jego okien roztacza się panoramiczny widok na miasto. Goście hotelu mogą rozpocząć dzień od urozmaiconego śniadania. Na terenie tego czterogwiazdkowego obiektu można korzystać z bezpłatnego WiFi. W całym budynku obowiązuje zakaz palenia.&#xA;
+        Klimatyzowane pokoje w hotelu Novotel Warszawa Centrum wyposażone są w telewizor z płaskim ekranem, zestaw do parzenia kawy i herbaty oraz sejf. Za dodatkową opłatą można korzystać z minibaru. Pokoje dysponują także miejscem do pracy oraz fotelami lub sofą. Wszystkie pokoje zapewniają przestronną łazienkę z suszarką do włosów oraz wanną lub prysznicem.&#xA;
+        W klimatyzowanej restauracji i barze NOVO2 w hotelu Novotel serwowane są dania kuchni międzynarodowej oraz szeroki wybór napojów. Hotelowa recepcja czynna jest przez całą dobę. Obiekt zapewnia również centrum odnowy biologicznej z sauną oraz różnymi przyrządami do ćwiczeń fitness. Znajduje się ono na najwyższym piętrze budynku, skąd Goście mogą podziwiać piękny widok na panoramę stolicy.&#xA;
+        Hotel Novotel Centrum usytuowany jest naprzeciwko Pałacu Kultury i Nauki. Od stacji metra Centrum oraz licznych przystanków autobusowych i tramwajowych Gości obiektu dzieli zaledwie kilka kroków.</string>
+    <string name="opis_hotel2">Ten czterogwiazdkowy hotel dysponuje barem oraz restauracją i jest dogodnie usytuowany zaledwie 5 minut spacerem od krakowskiego lotniska Balice. Na miejscu do dyspozycji Gości jest bezpłatna przechowalnia bagażu i bezpłatne WiFi.&#xA;
+        Wszystkie pokoje w hotelu Hilton Garden Inn Kraków Airport są klimatyzowane i wyposażone w telewizor z płaskim ekranem, sejf oraz lodówkę. Dysponują one także łazienką z suszarką do włosów i bezpłatnym zestawem kosmetyków.&#xA;
+        Goście mogą bezpłatnie korzystać z centrum fitness. Hotel oferuje także usługi konsjerża, zaplecze bankietowe oraz centrum biznesowe.&#xA;
+        Hotel Hilton Garden Inn Kraków Airport oddalony jest o 30 minut jazdy od Starego Miasta. Dojazd do żydowskiej dzielnicy Kazimierz zajmuje 23 minuty.</string>
+    <string name="opis_hotel3">Luksusowy hotel Warsaw Marriott jest położony w samym centrum miasta. Oferuje on klimatyzowane pokoje z minibarem i telewizorem z dostępem do kanałów satelitarnych. Z okien można podziwiać panoramę Warszawy.&#xA;
+        Wszystkie pokoje wyposażone są w telewizor LCD i obejmują komfortową część wypoczynkową. Goście mogą korzystać z sejfu i małej lodówki.&#xA;
+        W hotelu znajduje się kilka barów i restauracji oraz bar sportowy Champions. Codziennie rano na miejscu podawane jest urozmaicone śniadanie w formie bufetu.&#xA;
+        Podczas pobytu Goście mogą zrelaksować się w hotelowej saunie, centrum fitness, gabinecie masażu i basenie. Na miejscu znajduje się też kasyno.&#xA;
+        Hotel mieści się zaledwie 400 metrów od centrum handlowego Złote Tarasy. Dworzec kolejowy Warszawa Centralna usytuowany jest po przeciwnej stronie ulicy.</string>
+    <string name="opis_hotel4">Usytuowany zaledwie 10 minut spacerem od Rynku Głównego hotel Delta oferuje niedrogie zakwaterowanie, kameralną atmosferę i obsługę przyjaznego personelu.&#xA;
+        Wszystkie pokoje w hotelu Delta mieszczą łazienkę i wyposażone są w telewizor z dostępem do kanałów satelitarnych. W całym budynku można korzystać z bezpłatnego WiFi.&#xA;
+        Goście mogą rozpocząć dzień od pysznego śniadania podawanego we wspólnej jadalni. Jest ona także doskonałym miejscem na relaks przy drinku i spotkanie z innymi podróżnymi.&#xA;
+        W przestronnym holu znajduje się bezpłatny punkt internetowy.&#xA;
+        Większość atrakcji Starego Miasta, w tym Trakt Królewski z Wieżą Ratuszową i Wzgórzem Wawelskim, znajduje się w odległości krótkiego spaceru od hotelu Delta. Dworzec kolejowy Kraków Główny oddalony jest od obiektu o 1,5 km.&#xA;
+        W trakcie pobytu Goście mogą wybrać się na pieszą wycieczkę po Krakowie lub wypożyczyć rower i odkrywać na nim uroki miasta. W hotelu można również zarezerwować jednodniową wycieczkę do Oświęcimia, Zakopanego i kopalni soli w Wieliczce.</string>
+    <string name="opis_hotel5">Hotel Mercure Gdynia Centrum oferuje widoki na morze, Skwer Kościuszki, Dar Pomorza oraz zabytkowy okręt-muzeum ORP Błyskawica. Atrakcje te oddalone są od budynku o 5 minut spacerem, podobnie jak piaszczysta plaża i duży plac zabaw. Wszyscy Goście mają bezpłatny dostęp do krytego basenu z podgrzewaną wodą i sauny.&#xA;
+        Pokoje w hotelu Mercure Gdynia Centrum wyposażone są w bezpłatne WiFi oraz telewizor z płaskim ekranem i dostępem do kanałów kablowych. W każdym z nich mieści się także łazienka z wanną lub prysznicem oraz suszarką do włosów. Z większości pokoi roztacza się widok na Morze Bałtyckie lub Skwer Kościuszki.&#xA;
+        Codziennie rano na miejscu serwowane jest urozmaicone śniadanie w formie bufetu. Hotelowa restauracja, Winestone, zaprasza na dania kuchni europejskiej i lokalnej podawane na czarnych kamiennych płytach. Wina z całego świata można zamawiać do posiłków oraz kupić w sklepie z winami.&#xA;
+        Za dodatkową opłatą Goście mogą zrelaksować się w studiu masażu i solarium.</string>
+    <string name="opis_hotel6">Czterogwiazdkowy hotel Nadmorski to wielokrotnie nagradzany obiekt, z którego okien roztacza się widok na Zatokę Gdańską. W hotelu działa spa Instytut Genesis. Obiekt jest zlokalizowany tuż przy trasie rowerowej i nadmorskiej promenadzie o długości 2 km.&#xA;
+        Hotel Nadmorski jest usytuowany w cichej i malowniczej okolicy, nieopodal Trójmiejskiego Parku Krajobrazowego i zaledwie 1 km od tętniącego życiem centrum Gdyni.&#xA;
+        W każdym z klimatyzowanych pokoi znajduje się minibar i telewizor. Goście mogą korzystać z usługi wideo na życzenie oraz dostępu do Internetu. Te nowocześnie urządzone, lecz przytulne pokoje są idealnym wyborem zarówno dla turystów, jak i dla osób podróżujących służbowo. Pokoje połączone mogą służyć jako studio.&#xA;
+        W hotelu mieszczą się 3 wspaniałe restauracje oraz bar w holu. Centrum spa i odnowy biologicznej Instytut Genesis obejmuje bezpłatną całodobową siłownię, a także dostępne za dodatkową opłatą saunę i wannę z hydromasażem.&#xA;
+        Za dodatkową opłatą hotel Nadmorski udostępnia Gościom podziemny garaż. Z parkingu na zewnątrz można natomiast korzystać bezpłatnie.</string>
+    <string name="opis_hotel7">Hotel Sheraton Sopot jest położony bezpośrednio przy plaży i sopockim molo. Obiekt ten oferuje ciche pokoje z widokiem na morze lub park. Na miejscu dostępne jest też centrum spa z krytym basenem.&#xA;
+        Pokoje w hotelu Sheraton Sopot są klimatyzowane i zostały wyposażone w telewizor z płaskim ekranem i dostępem do kanałów satelitarnych. W każdym pokoju znajduje się łazienka z wanną i prysznicem.&#xA;
+        Na terenie hotelu działają 2 restauracje i 2 bary. Restauracja Wave zaprasza na dania kuchni polskiej i międzynarodowej oraz dania z owoców morza. Znajdujący się w podziemiach zabytkowej rotundy lokal Vinoteque Sopot oferuje szeroki wybór win i salon cygar. Jest to doskonałe miejsce na spotkania. Można tu także zamówić posiłek.&#xA;
+        Hotel jest usytuowany zaledwie 200 metrów od ulicy Bohaterów Monte Cassino, zwanej Monciakiem, przy której znajduje się mnóstwo sklepów, barów i kawiarni. Od Opery Leśnej dzielą obiekt 2 km. Odległość od hali widowiskowo-sportowej Ergo Arena wynosi 2,9 km, a od stadionu Energa Gdańsk – 10,9 km. Hotel Sheraton jest oddalony o 12 km od gdańskiego Starego Miasta oraz o 9 km od skweru Kościuszki, centralnej ulicy Gdyni.</string>
+    <string name="opis_hotel8">Zabytkowy hotel Sofitel Grand położony jest zaledwie kilka kroków od brzegu morza w Sopocie i oferuje eleganckie, luksusowe wnętrza oraz prywatną plażę. Pokoje są wyposażone w telewizor LCD i zapewniają bezpłatny dostęp do internetu.&#xA;
+        W pokojach zapewniono klimatyzację, zestaw do parzenia kawy i herbaty oraz minibar. Z każdego z nich roztacza się piękny widok na morze lub park.&#xA;
+        W hotelu znajduje się centrum odnowy biologicznej z krytym basenem z podgrzewaną wodą, siłownią, gabinetem masażu, sauną oraz łaźnią turecką. Na terenie obiektu mieści się również kasyno.&#xA;
+        Codziennie rano w hotelu Sofitel Grand jest serwowane urozmaicone śniadanie. Hotelowa restauracja Grand Blue serwuje dania kuchni polskiej i międzynarodowej.&#xA;
+        Hotel Sofitel Grand Sopot dzieli kilka kroków od sopockiego molo i 800 metrów od słynnej ulicy Bohaterów Monte Cassino.</string>
+    <string name="opis_hotel9">Hotel Baltivia Sea Resort jest usytuowany naprzeciwko plaży w Mielnie. Oferuje on saunę oraz centrum fitness. Na miejscu znajduje się także bar i restauracja.&#xA;
+        Goście mogą korzystać z bezpłatnego WiFi. Każdy pokój dysponuje balkonem.&#xA;
+        Codziennie rano w obiekcie serwowane jest śniadanie kontynentalne, w formie bufetu lub wegetariańskie.&#xA;
+        W wolnej chwili Goście mogą popływać w krytym basenie.&#xA;
+        Personel całodobowej recepcji mówi po polsku, angielsku oraz niemiecku i może udzielić Gościom informacji na temat okolicy.&#xA;
+        Koszalin jest oddalony o 11 km, a Kołobrzeg – o 33 km.</string>
+</resources>

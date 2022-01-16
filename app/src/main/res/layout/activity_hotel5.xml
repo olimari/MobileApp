@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_gradient"
+    android:orientation="vertical"
+    tools:context=".HotelActivity5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="82dp">
+
+                <ImageButton
+                    android:id="@+id/buttonGoBackHotel5"
+                    android:layout_width="41dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@android:color/transparent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_arrow" />
+
+                <TextView
+                    android:id="@+id/tvHotelName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Mercure"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/border_gray"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/zdjecie13"
+                            android:layout_width="280dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/mercure1" />
+
+                        <ImageView
+                            android:id="@+id/zdjecie14"
+                            android:layout_width="280dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintStart_toEndOf="@id/zdjecie13"
+                            app:layout_constraintTop_toTopOf="@id/zdjecie13"
+                            app:srcCompat="@drawable/mercure2" />
+
+                        <ImageView
+                            android:id="@+id/zdjecie15"
+                            android:layout_width="280dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintStart_toEndOf="@id/zdjecie14"
+                            app:layout_constraintTop_toTopOf="@id/zdjecie14"
+                            app:srcCompat="@drawable/mercure3" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </HorizontalScrollView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="826dp">
+
+                    <TextView
+                        android:id="@+id/tvHotelPriceNight5"
+                        android:layout_width="121dp"
+                        android:layout_height="27dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Cena za noc"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/star21" />
+
+                    <TextView
+                        android:id="@+id/tvHotelPrice5"
+                        android:layout_width="49dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="68dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="300zł"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/tvHotelPriceNight5"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/buttonReser5"
+                        android:layout_width="177dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/button"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Rezerwuj"
+                        android:textAllCaps="false"
+                        android:textColorHighlight="@color/border_gray"
+                        android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvHotelAddress5"
+                        android:layout_width="301dp"
+                        android:layout_height="31dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="32dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Armii Krajowej 22, 81-372 Gdynia"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/pin5"
+                        app:layout_constraintTop_toBottomOf="@+id/tvHotelPriceNight5" />
+
+                    <TextView
+                        android:id="@+id/tvHotel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="36dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="Opis"
+                        android:textColor="@color/brown"
+                        android:textSize="30sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/pin5" />
+
+                    <ImageView
+                        android:id="@+id/star21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/star22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toEndOf="@+id/star21"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/star23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toEndOf="@+id/star22"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_star" />
+
+                    <ImageView
+                        android:id="@+id/pin5"
+                        android:layout_width="35dp"
+                        android:layout_height="39dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvHotelPriceNight5"
+                        app:srcCompat="@drawable/ic_pin" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="333dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/opis_hotel5"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvHotel5" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

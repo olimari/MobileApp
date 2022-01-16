@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_gradient"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Witaj w Hotelo!"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/zdjecie2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/booking_app_logo" />
+            />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_background"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".WelcomeActivity">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints">
+
+                    <EditText
+                        android:id="@+id/editTextLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:ems="10"
+                        android:fontFamily="@font/montserrat_light"
+                        android:hint="Lokalizacja ..."
+                        android:inputType="textPersonName"
+                        android:textColorHint="@color/border_gray"
+                        android:textStyle="italic"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.502"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textSearchMore"
+                        android:layout_width="217dp"
+                        android:layout_height="22dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/zaawansowane_wyszukiwanie"
+                        android:textColor="@color/burgundy"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLocation" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="@string/rekomendowane"
+                        android:textColor="@color/brown"
+                        android:textSize="25sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textSearchMore" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontal1"
+                        android:layout_width="411dp"
+                        android:layout_height="186dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="1dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageButton
+                                android:id="@+id/hotel1"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/novotel1" />
+
+                            <ImageButton
+                                android:id="@+id/hotel2"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toEndOf="@id/hotel1"
+                                app:layout_constraintTop_toTopOf="@id/hotel1"
+                                app:srcCompat="@drawable/hiltongarden1" />
+
+                            <ImageButton
+                                android:id="@+id/hotel3"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toEndOf="@id/hotel2"
+                                app:layout_constraintTop_toTopOf="@id/hotel2"
+                                app:srcCompat="@drawable/marriott1" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/tvPeriod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="@string/najlepiej_oceniane"
+                        android:textColor="@color/brown"
+                        android:textSize="25sp"
+                        app:layout_constraintStart_toStartOf="@id/textView10"
+                        app:layout_constraintTop_toBottomOf="@id/horizontal1" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontal2"
+                        android:layout_width="411dp"
+                        android:layout_height="186dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="1dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvPeriod">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageButton
+                                android:id="@+id/hotel4"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/delta1" />
+
+                            <ImageButton
+                                android:id="@+id/hotel5"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toEndOf="@id/hotel4"
+                                app:layout_constraintTop_toTopOf="@id/hotel4"
+                                app:srcCompat="@drawable/mercure1" />
+
+                            <ImageButton
+                                android:id="@+id/hotel6"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toEndOf="@id/hotel5"
+                                app:layout_constraintTop_toTopOf="@id/hotel5"
+                                app:srcCompat="@drawable/hotelnadmorski1" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="Najnowsze opinie"
+                        android:textColor="@color/brown"
+                        android:textSize="25sp"
+                        app:layout_constraintStart_toStartOf="@id/tvPeriod"
+                        app:layout_constraintTop_toBottomOf="@id/horizontal2" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontal3"
+                        android:layout_width="411dp"
+                        android:layout_height="186dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="1dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageButton
+                                android:id="@+id/hotel7"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/sheraton1" />
+
+                            <ImageButton
+                                android:id="@+id/hotel8"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toEndOf="@id/hotel7"
+                                app:layout_constraintTop_toTopOf="@id/hotel7"
+                                app:srcCompat="@drawable/sofitelgrand1" />
+
+                            <ImageButton
+                                android:id="@+id/hotel9"
+                                android:layout_width="280dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="5dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintStart_toEndOf="@id/hotel8"
+                                app:layout_constraintTop_toTopOf="@id/hotel8"
+                                app:srcCompat="@drawable/baltivia1" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </HorizontalScrollView>
+
+                    <ImageButton
+                        android:id="@+id/btWelcomeSearch"
+                        android:layout_width="35dp"
+                        android:layout_height="37dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@+id/editTextLocation"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_search_grey" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/bottom_bar_gradient">
+
+                <ImageButton
+                    android:id="@+id/buttonReservation"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="52dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/buttonSearch"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_suitcase" />
+
+                <ImageButton
+                    android:id="@+id/buttonSearch"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="45dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/buttonHome"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.529"
+                    app:srcCompat="@drawable/ic_search_white" />
+
+                <ImageButton
+                    android:id="@+id/buttonHome"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="40dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.018"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.47"
+                    app:srcCompat="@drawable/ic_home" />
+
+                <ImageButton
+                    android:id="@+id/buttonProfile"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/buttonReservation"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.529"
+                    app:srcCompat="@drawable/ic_user" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

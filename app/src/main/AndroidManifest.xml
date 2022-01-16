@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelo">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hotelo">
+        <activity android:name=".BookActivity9"></activity>
+        <activity android:name=".BookActivity8" />
+        <activity android:name=".BookActivity7" />
+        <activity android:name=".BookActivity6" />
+        <activity android:name=".BookActivity5" />
+        <activity android:name=".BookActivity4" />
+        <activity android:name=".BookActivity3" />
+        <activity android:name=".BookActivity2" />
+        <activity android:name=".HotelActivity9" />
+        <activity android:name=".HotelActivity8" />
+        <activity android:name=".HotelActivity7" />
+        <activity android:name=".HotelActivity6" />
+        <activity android:name=".HotelActivity5" />
+        <activity android:name=".HotelActivity4" />
+        <activity android:name=".ReservateActivity" />
+        <activity android:name=".HotelActivity3" />
+        <activity android:name=".HotelActivity2" />
+        <activity android:name=".HotelActivity1" />
+        <activity android:name=".SearchResultActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".ReservationActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
